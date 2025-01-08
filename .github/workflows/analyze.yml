@@ -9,8 +9,7 @@ on:
 jobs:
   analyze:
     runs-on:
-      - self-hosted
-      - 8core
+      - ubuntu-latest
 
     steps:
       - name: Check out the repo
